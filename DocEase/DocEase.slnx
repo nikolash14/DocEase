@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DocEase.Api/DocEase.Api.csproj" />
+  <Project Path="DocEase.Application/DocEase.Application.csproj" />
+  <Project Path="DocEase.Domain/DocEase.Domain.csproj" />
+  <Project Path="DocEase.Infrastructure/DocEase.Infrastructure.csproj" />
+  <Project Path="DocEase.Tests/DocEase.Tests.csproj" />
+</Solution>

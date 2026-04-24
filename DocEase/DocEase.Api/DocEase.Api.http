@@ -1,0 +1,6 @@
+@DocEase.Api_HostAddress = http://localhost:5196
+
+GET {{DocEase.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
