@@ -2,7 +2,6 @@
 using DocEase.Persistence.Data;
 using DocEase.Persistence.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Runtime;
 
 namespace DocEase.Infrastructure.Repository
 {

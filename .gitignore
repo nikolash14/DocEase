@@ -7,3 +7,5 @@
 [Oo]bj/
 *.nupkg
 .vs
+.sql
+/DocEase/Database.sql
