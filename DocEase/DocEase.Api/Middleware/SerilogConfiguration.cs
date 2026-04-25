@@ -1,6 +1,8 @@
 ﻿using DocEase.Application.Config;
 using Microsoft.Extensions.Options;
 using Serilog;
+using Serilog.Core;
+using Serilog.Events;
 using Serilog.Sinks.MSSqlServer;
 using System.Data;
 
@@ -8,6 +10,10 @@ namespace DocEase.Api.Middleware
 {
     public static class SerilogConfiguration
     {
+        public static LoggingLevelSwitch LevelSwitch = new LoggingLevelSwitch
+        {
+            MinimumLevel = LogEventLevel.Warning
+        };
 
         public static void ConfigureLogger(
             HostBuilderContext context,
@@ -34,7 +40,7 @@ namespace DocEase.Api.Middleware
             if (serilogSetting is not null)
             {
                 logger
-                    .MinimumLevel.Information()
+                    .MinimumLevel.ControlledBy(LevelSwitch)
                     .Enrich.FromLogContext()
                     // File sink
                     .WriteTo.File(
