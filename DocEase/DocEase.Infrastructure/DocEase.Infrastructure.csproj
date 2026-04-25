@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+    <PackageReference Include="Mapster" Version="10.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.7" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.0.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DocEase.Application\DocEase.Application.csproj" />
+    <ProjectReference Include="..\DocEase.Persistence\DocEase.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

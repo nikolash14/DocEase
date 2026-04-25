@@ -1,4 +1,4 @@
-﻿using DocEase.Api.Config.Model;
+﻿using DocEase.Application.Config;
 using Microsoft.Extensions.Options;
 using Serilog;
 using Serilog.Sinks.MSSqlServer;
@@ -31,27 +31,34 @@ namespace DocEase.Api.Middleware
 
             columnOptions.TimeStamp.ConvertToUtc = true;
             var serilogSetting = provider.GetRequiredService<IOptions<SerilogSetting>>().Value;
-            logger
-                .MinimumLevel.Information()
-                .Enrich.FromLogContext()
-                // File sink
-                .WriteTo.File(
-                    path: $"{serilogSetting.LogFileFolder}/{serilogSetting.LogFileName}.json",
-                    rollingInterval: RollingInterval.Hour,
-                    outputTemplate: serilogSetting.LogFileOutputTemplate,
-                    retainedFileTimeLimit: TimeSpan.FromDays(serilogSetting.LogFileRetainedFileTimeLimitinDays)
-                )
-                // SQL Server sink
-                .WriteTo.MSSqlServer(
-                    connectionString: provider.GetRequiredService<IOptions<SqlSetting>>().Value.SqlServerPrimary,
-                    sinkOptions: new MSSqlServerSinkOptions
-                    {
-                        TableName = serilogSetting.ErrorTable,
-                        SchemaName = serilogSetting.ErrorTableSchema,
-                        AutoCreateSqlTable = serilogSetting.AutoCreateSqlTable
-                    },
-                    columnOptions: columnOptions
-                );
+            if (serilogSetting is not null)
+            {
+                logger
+                    .MinimumLevel.Information()
+                    .Enrich.FromLogContext()
+                    // File sink
+                    .WriteTo.File(
+                        path: $"{serilogSetting.LogFileFolder}/{serilogSetting.LogFileName}.json",
+                        rollingInterval: RollingInterval.Hour,
+                        outputTemplate: serilogSetting?
+                                            .LogFileOutputTemplate ??
+                                            "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level:u3}] {Message}{NewLine}{Exception}",
+                        retainedFileTimeLimit: TimeSpan.FromDays(
+                                            serilogSetting?
+                                            .LogFileRetainedFileTimeLimitinDays ?? 10)
+                    )
+                    // SQL Server sink
+                    .WriteTo.MSSqlServer(
+                        connectionString: provider.GetRequiredService<IOptions<SqlSetting>>().Value.SqlServerPrimary,
+                        sinkOptions: new MSSqlServerSinkOptions
+                        {
+                            TableName = serilogSetting?.ErrorTable ?? "ErrorLogs",
+                            SchemaName = serilogSetting?.ErrorTableSchema ?? "dbo",
+                            AutoCreateSqlTable = serilogSetting?.AutoCreateSqlTable ?? false
+                        },
+                        columnOptions: columnOptions
+                    );
+            }
         }
 
     }

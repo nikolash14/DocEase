@@ -15,12 +15,12 @@
         /// <summary>
         /// Generic payload data (can be any type).
         /// </summary>
-        public T Data { get; set; }
+        public T? Data { get; set; }
 
         /// <summary>
         /// Optional message for additional context (errors, success notes).
         /// </summary>
-        public string Message { get; set; }
+        public string? Message { get; set; }
 
         // Static helper methods for convenience
         public static ApiResponse<T> Success(T data, string message = "Request successful", int statusCode = 200)

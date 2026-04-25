@@ -1,0 +1,782 @@
+2026-04-25 16:07:27 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:07:28 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:07:28 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:07:28 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:07:28 [INF] Hosting environment: "Development"
+2026-04-25 16:07:28 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 382.75ms
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 47.3931ms
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 54.6928ms
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 2.4909ms
+2026-04-25 16:07:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 121.4268ms
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 126.6229ms
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 111.8604ms
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 121.5097ms
+2026-04-25 16:07:39 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:07:39 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.7209 ms
+2026-04-25 16:07:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 79.0678ms
+2026-04-25 16:07:39 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 19.6011ms
+2026-04-25 16:07:39 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:07:40 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:07:40 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:07:40 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.6399ms
+2026-04-25 16:07:40 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 147.3572ms
+2026-04-25 16:07:57 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:07:57 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 3.0412ms
+2026-04-25 16:07:57 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:07:57 [INF] CORS policy execution successful.
+2026-04-25 16:07:57 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 5.5858ms
+2026-04-25 16:07:57 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:07:57 [INF] CORS policy execution successful.
+2026-04-25 16:07:57 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:07:57 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:07:58 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:07:58 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 995.2251ms
+2026-04-25 16:07:58 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:07:58 [INF] HTTP "POST" "/Login/Login" responded 200 in 1047.2938 ms
+2026-04-25 16:07:58 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1049.6366ms
+2026-04-25 16:08:12 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:08:12 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.7176ms
+2026-04-25 16:08:12 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:08:12 [INF] CORS policy execution successful.
+2026-04-25 16:08:12 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.643ms
+2026-04-25 16:08:12 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:08:12 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:08:12 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 500 null "application/json; charset=utf-8" 54.2601ms
+2026-04-25 16:14:17 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:14:17 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:14:17 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:14:17 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:14:17 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:14:17 [INF] Hosting environment: "Development"
+2026-04-25 16:14:17 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:14:22 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 1035.8131ms
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 56.6261ms
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 5.8072ms
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 121.8715ms
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 172.793ms
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 172.3754ms
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 81.4277ms
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 139.0798ms
+2026-04-25 16:14:23 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 70.8301ms
+2026-04-25 16:14:23 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 0.7548 ms
+2026-04-25 16:14:23 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 11.2619ms
+2026-04-25 16:14:23 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:14:23 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.781ms
+2026-04-25 16:14:23 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 121.5512ms
+2026-04-25 16:14:34 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 48
+2026-04-25 16:14:34 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 2.9756ms
+2026-04-25 16:14:34 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:14:34 [INF] CORS policy execution successful.
+2026-04-25 16:14:34 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 3.1797ms
+2026-04-25 16:14:34 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 48
+2026-04-25 16:14:34 [INF] CORS policy execution successful.
+2026-04-25 16:14:34 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:14:34 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:14:35 [INF] Executing "BadRequestObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-25 16:14:35 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 725.8739ms
+2026-04-25 16:14:35 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:14:35 [INF] HTTP "POST" "/Login/Login" responded 400 in 775.0697 ms
+2026-04-25 16:14:35 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 400 null "application/json; charset=utf-8" 776.3978ms
+2026-04-25 16:14:43 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:14:43 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 0.6796ms
+2026-04-25 16:14:43 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:14:43 [INF] CORS policy execution successful.
+2026-04-25 16:14:43 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 0.5436ms
+2026-04-25 16:14:43 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:14:43 [INF] CORS policy execution successful.
+2026-04-25 16:14:43 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:14:43 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:14:43 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:14:43 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 257.3837ms
+2026-04-25 16:14:43 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:14:43 [INF] HTTP "POST" "/Login/Login" responded 200 in 257.9613 ms
+2026-04-25 16:14:43 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 258.9218ms
+2026-04-25 16:14:56 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:14:56 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 91.7983ms
+2026-04-25 16:14:56 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:14:56 [INF] CORS policy execution successful.
+2026-04-25 16:14:56 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.5523ms
+2026-04-25 16:14:56 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:14:56 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:14:56 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:14:56 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 8.2747ms
+2026-04-25 16:16:59 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:17:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:17:00 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:17:00 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:17:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:17:00 [INF] Hosting environment: "Development"
+2026-04-25 16:17:00 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 355.9101ms
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 45.4333ms
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 59.3074ms
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 2.7609ms
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 63.4277ms
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 79.198ms
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 74.2108ms
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 41.9778ms
+2026-04-25 16:17:03 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:17:03 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.9429 ms
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 72.302ms
+2026-04-25 16:17:03 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 15.2125ms
+2026-04-25 16:17:03 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:17:03 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.5454ms
+2026-04-25 16:17:03 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 135.7028ms
+2026-04-25 16:17:16 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:17:16 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 2.9203ms
+2026-04-25 16:17:16 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:17:16 [INF] CORS policy execution successful.
+2026-04-25 16:17:16 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 4.9312ms
+2026-04-25 16:17:16 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:17:16 [INF] CORS policy execution successful.
+2026-04-25 16:17:16 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:17:16 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:17:17 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:17:17 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 925.5161ms
+2026-04-25 16:17:17 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:17:17 [INF] HTTP "POST" "/Login/Login" responded 200 in 975.9195 ms
+2026-04-25 16:17:17 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 978.4614ms
+2026-04-25 16:17:31 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:17:31 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 91.3425ms
+2026-04-25 16:17:31 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:17:31 [INF] CORS policy execution successful.
+2026-04-25 16:17:31 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.7051ms
+2026-04-25 16:17:31 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:17:31 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:17:31 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:17:31 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 9.3915ms
+2026-04-25 16:18:49 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:18:49 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:18:49 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:18:49 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:18:49 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:18:49 [INF] Hosting environment: "Development"
+2026-04-25 16:18:49 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:18:51 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 483.6015ms
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:18:51 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 137.8031ms
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:18:51 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 157.867ms
+2026-04-25 16:18:51 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 170.7137ms
+2026-04-25 16:18:51 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 169.7216ms
+2026-04-25 16:18:51 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 167.0999ms
+2026-04-25 16:18:51 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 19.9543ms
+2026-04-25 16:18:51 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:18:51 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 177.5422ms
+2026-04-25 16:18:52 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:18:52 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.9928 ms
+2026-04-25 16:18:52 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 19.1364ms
+2026-04-25 16:18:52 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:18:52 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 93.1808ms
+2026-04-25 16:18:52 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:18:52 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:18:52 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.9577ms
+2026-04-25 16:18:52 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 124.5916ms
+2026-04-25 16:19:05 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:19:05 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 2.5808ms
+2026-04-25 16:19:05 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:19:05 [INF] CORS policy execution successful.
+2026-04-25 16:19:05 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 4.6916ms
+2026-04-25 16:19:05 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:19:05 [INF] CORS policy execution successful.
+2026-04-25 16:19:05 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:19:05 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:19:06 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:19:06 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 1067.7895ms
+2026-04-25 16:19:06 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:19:06 [INF] HTTP "POST" "/Login/Login" responded 200 in 1125.2269 ms
+2026-04-25 16:19:06 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1127.5739ms
+2026-04-25 16:19:20 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:19:20 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: '_azzkWcm79hHVMY0mwLRgGq8hFtkYbdVA-PnUuTdKDc'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-04-25 16:19:20 [INF] "Bearer" was not authenticated. Failure message: "IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: '_azzkWcm79hHVMY0mwLRgGq8hFtkYbdVA-PnUuTdKDc'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details."
+2026-04-25 16:19:20 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:19:20 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:19:20 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 401 0 null 135.0455ms
+2026-04-25 16:22:26 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:22:26 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:22:26 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:22:26 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:22:26 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:22:26 [INF] Hosting environment: "Development"
+2026-04-25 16:22:26 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:22:30 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 284.9161ms
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 83.7773ms
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 8.4573ms
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 97.2827ms
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 103.9389ms
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 116.9742ms
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 118.0576ms
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 123.0833ms
+2026-04-25 16:22:31 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:22:31 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 2.6798 ms
+2026-04-25 16:22:31 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 21.1973ms
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 109.4577ms
+2026-04-25 16:22:31 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:22:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.4614ms
+2026-04-25 16:22:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 129.9928ms
+2026-04-25 16:22:44 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:22:44 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 2.4628ms
+2026-04-25 16:22:44 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:22:44 [INF] CORS policy execution successful.
+2026-04-25 16:22:44 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 6.0677ms
+2026-04-25 16:22:44 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:22:44 [INF] CORS policy execution successful.
+2026-04-25 16:22:44 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:22:44 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:23:29 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:23:29 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:23:29 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:23:29 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:23:29 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:23:29 [INF] Hosting environment: "Development"
+2026-04-25 16:23:29 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:23:38 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:23:38 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 241.8291ms
+2026-04-25 16:23:39 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:23:39 [INF] CORS policy execution successful.
+2026-04-25 16:23:39 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 46.0126ms
+2026-04-25 16:23:39 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:23:39 [INF] CORS policy execution successful.
+2026-04-25 16:23:39 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:23:39 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:23:40 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:23:40 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 917.4835ms
+2026-04-25 16:23:40 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:23:40 [INF] HTTP "POST" "/Login/Login" responded 200 in 1000.6577 ms
+2026-04-25 16:23:40 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1017.6389ms
+2026-04-25 16:23:57 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:23:57 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 68.195ms
+2026-04-25 16:23:57 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:23:57 [INF] CORS policy execution successful.
+2026-04-25 16:23:57 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 1.336ms
+2026-04-25 16:23:57 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:23:57 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:23:57 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:23:57 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 9.6656ms
+2026-04-25 16:24:07 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:24:07 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 3.445ms
+2026-04-25 16:24:07 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:24:07 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 0.1147 ms
+2026-04-25 16:24:07 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 11.9808ms
+2026-04-25 16:24:07 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:24:07 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:24:08 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 129.9091ms
+2026-04-25 16:24:16 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:24:16 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 5.0334ms
+2026-04-25 16:24:16 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:24:16 [INF] CORS policy execution successful.
+2026-04-25 16:24:16 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.693ms
+2026-04-25 16:24:16 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:24:16 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:24:16 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:24:16 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 1.9239ms
+2026-04-25 16:26:21 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:26:21 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:26:21 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:26:21 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:26:21 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:26:21 [INF] Hosting environment: "Development"
+2026-04-25 16:26:21 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:26:30 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 415.5519ms
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 41.8398ms
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 46.6789ms
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 61.787ms
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 73.6846ms
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 48.3903ms
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 4.9228ms
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 54.1141ms
+2026-04-25 16:26:31 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:26:31 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.2517 ms
+2026-04-25 16:26:31 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 9.8393ms
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 57.901ms
+2026-04-25 16:26:31 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:26:31 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.8827ms
+2026-04-25 16:26:31 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 103.3623ms
+2026-04-25 16:26:49 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:26:49 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 3.153ms
+2026-04-25 16:26:49 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:26:49 [INF] CORS policy execution successful.
+2026-04-25 16:26:49 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 6.3508ms
+2026-04-25 16:26:49 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:26:49 [INF] CORS policy execution successful.
+2026-04-25 16:26:49 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:26:49 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:26:50 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:26:50 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 793.3998ms
+2026-04-25 16:26:50 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:26:50 [INF] HTTP "POST" "/Login/Login" responded 200 in 847.0423 ms
+2026-04-25 16:26:50 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 849.9313ms
+2026-04-25 16:27:07 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:27:07 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 87.995ms
+2026-04-25 16:27:07 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:27:07 [INF] CORS policy execution successful.
+2026-04-25 16:27:07 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.6181ms
+2026-04-25 16:27:07 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:27:07 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:27:07 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:27:07 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 10.6801ms
+2026-04-25 16:33:07 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:33:08 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:33:08 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:33:08 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:33:08 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:33:08 [INF] Hosting environment: "Development"
+2026-04-25 16:33:08 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:33:12 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 372.9838ms
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 41.9073ms
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 89.5033ms
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 38.9848ms
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 105.6701ms
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 96.946ms
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 95.8655ms
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 104.0782ms
+2026-04-25 16:33:13 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 66.2309ms
+2026-04-25 16:33:13 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.6949 ms
+2026-04-25 16:33:13 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 156.4377ms
+2026-04-25 16:33:13 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:33:13 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.5924ms
+2026-04-25 16:33:13 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 145.824ms
+2026-04-25 16:33:28 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:33:28 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 0.9734ms
+2026-04-25 16:33:28 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:33:28 [INF] CORS policy execution successful.
+2026-04-25 16:33:28 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 6.1568ms
+2026-04-25 16:33:28 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:33:28 [INF] CORS policy execution successful.
+2026-04-25 16:33:28 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:33:28 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:33:29 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:33:29 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 1061.973ms
+2026-04-25 16:33:29 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:33:29 [INF] HTTP "POST" "/Login/Login" responded 200 in 1105.1810 ms
+2026-04-25 16:33:29 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1111.1259ms
+2026-04-25 16:33:48 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:33:48 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.6211ms
+2026-04-25 16:33:48 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:33:48 [INF] CORS policy execution successful.
+2026-04-25 16:33:48 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 2.1434ms
+2026-04-25 16:33:48 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:33:48 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:33:48 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:33:48 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 22.3048ms
+2026-04-25 16:35:51 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:35:52 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:35:52 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:35:52 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:35:52 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:35:52 [INF] Hosting environment: "Development"
+2026-04-25 16:35:52 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:35:58 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:35:59 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 87.9554ms
+2026-04-25 16:35:59 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:35:59 [INF] CORS policy execution successful.
+2026-04-25 16:35:59 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 86.0619ms
+2026-04-25 16:35:59 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:35:59 [INF] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2026-04-25 16:35:59 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:35:59 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 21.2833ms
+2026-04-25 16:36:01 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 335.1256ms
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 1.0458ms
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 41.0025ms
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 69.5983ms
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 54.1971ms
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 57.4302ms
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 26.2499ms
+2026-04-25 16:36:02 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 72.3962ms
+2026-04-25 16:36:02 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.6171 ms
+2026-04-25 16:36:02 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 26.7848ms
+2026-04-25 16:36:02 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 71.995ms
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:36:02 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.8407ms
+2026-04-25 16:36:02 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 135.7546ms
+2026-04-25 16:36:20 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:36:20 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 0.5496ms
+2026-04-25 16:36:20 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:36:20 [INF] CORS policy execution successful.
+2026-04-25 16:36:20 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 2.1556ms
+2026-04-25 16:36:20 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:36:20 [INF] CORS policy execution successful.
+2026-04-25 16:36:20 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:36:20 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:36:21 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:36:21 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 721.3172ms
+2026-04-25 16:36:21 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:36:21 [INF] HTTP "POST" "/Login/Login" responded 200 in 762.2819 ms
+2026-04-25 16:36:21 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 763.4755ms
+2026-04-25 16:36:37 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:36:37 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.4255ms
+2026-04-25 16:36:37 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:36:37 [INF] CORS policy execution successful.
+2026-04-25 16:36:37 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.8223ms
+2026-04-25 16:36:37 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:36:37 [INF] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2026-04-25 16:36:37 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:36:37 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 1.0524ms
+2026-04-25 16:44:22 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:44:22 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:44:22 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:44:22 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:44:22 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:44:22 [INF] Hosting environment: "Development"
+2026-04-25 16:44:22 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:44:26 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 364.9796ms
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 67.0735ms
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 118.5002ms
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 1.4241ms
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 135.8289ms
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 124.4114ms
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 140.175ms
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 94.8567ms
+2026-04-25 16:44:27 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 98.6891ms
+2026-04-25 16:44:27 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 0.7004 ms
+2026-04-25 16:44:27 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 112.4457ms
+2026-04-25 16:44:27 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:44:27 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.6645ms
+2026-04-25 16:44:27 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 105.6682ms
+2026-04-25 16:44:39 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 51
+2026-04-25 16:44:39 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 0.6423ms
+2026-04-25 16:44:39 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:44:39 [INF] CORS policy execution successful.
+2026-04-25 16:44:39 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 9.6717ms
+2026-04-25 16:44:39 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 51
+2026-04-25 16:44:39 [INF] CORS policy execution successful.
+2026-04-25 16:44:39 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:44:40 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:44:41 [INF] Executing "BadRequestObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-25 16:44:41 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 998.4989ms
+2026-04-25 16:44:41 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:44:41 [INF] HTTP "POST" "/Login/Login" responded 400 in 1059.2442 ms
+2026-04-25 16:44:41 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 400 null "application/json; charset=utf-8" 1068.7743ms
+2026-04-25 16:44:49 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:44:49 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 0.6333ms
+2026-04-25 16:44:49 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:44:49 [INF] CORS policy execution successful.
+2026-04-25 16:44:49 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 0.8746ms
+2026-04-25 16:44:49 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:44:49 [INF] CORS policy execution successful.
+2026-04-25 16:44:49 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:44:49 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:44:50 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:44:50 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 282.9157ms
+2026-04-25 16:44:50 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:44:50 [INF] HTTP "POST" "/Login/Login" responded 200 in 283.5274 ms
+2026-04-25 16:44:50 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 284.5099ms
+2026-04-25 16:45:04 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:45:04 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.4362ms
+2026-04-25 16:45:04 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:45:04 [INF] CORS policy execution successful.
+2026-04-25 16:45:04 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.4541ms
+2026-04-25 16:45:04 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:45:04 [INF] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2026-04-25 16:45:04 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:45:04 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 25.8186ms
+2026-04-25 16:46:12 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:46:12 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:46:13 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:46:13 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:46:13 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:46:13 [INF] Hosting environment: "Development"
+2026-04-25 16:46:13 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:46:19 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:46:19 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 271.0141ms
+2026-04-25 16:46:19 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:46:19 [INF] CORS policy execution successful.
+2026-04-25 16:46:19 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 115.0255ms
+2026-04-25 16:46:19 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:46:19 [INF] CORS policy execution successful.
+2026-04-25 16:46:19 [ERR] HTTP "POST" "/Doctor/create" responded 500 in 2.6587 ms
+System.InvalidOperationException: Endpoint DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-04-25 16:46:20 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 500 null "application/json; charset=utf-8" 116.2951ms
+2026-04-25 16:48:37 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:48:38 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:48:38 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:48:38 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:48:38 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:48:38 [INF] Hosting environment: "Development"
+2026-04-25 16:48:38 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:48:44 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 411.8067ms
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 6.4933ms
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 11.4107ms
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 24.697ms
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 49.8885ms
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 32.9863ms
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 35.3598ms
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 45.7003ms
+2026-04-25 16:48:45 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 63.5856ms
+2026-04-25 16:48:45 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 2.7668 ms
+2026-04-25 16:48:45 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 132.4799ms
+2026-04-25 16:48:45 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:48:45 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.8027ms
+2026-04-25 16:48:45 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 112.602ms
+2026-04-25 16:48:57 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 52
+2026-04-25 16:48:57 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 3.1753ms
+2026-04-25 16:48:57 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:48:57 [INF] CORS policy execution successful.
+2026-04-25 16:48:57 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 12.9231ms
+2026-04-25 16:48:57 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 52
+2026-04-25 16:48:57 [INF] CORS policy execution successful.
+2026-04-25 16:48:57 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:48:57 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:48:58 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:48:58 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 933.1873ms
+2026-04-25 16:48:58 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:48:58 [INF] HTTP "POST" "/Login/Login" responded 200 in 996.6473 ms
+2026-04-25 16:48:58 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1002.1611ms
+2026-04-25 16:49:13 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:49:13 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.4119ms
+2026-04-25 16:49:13 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:49:13 [INF] CORS policy execution successful.
+2026-04-25 16:49:13 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.8049ms
+2026-04-25 16:49:13 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:49:13 [INF] CORS policy execution successful.
+2026-04-25 16:49:13 [INF] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2026-04-25 16:49:13 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:49:13 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 24.6732ms
+2026-04-25 16:50:13 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:50:14 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:50:14 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:50:14 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:50:14 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:50:14 [INF] Hosting environment: "Development"
+2026-04-25 16:50:14 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:50:18 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:50:18 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 92.1351ms
+2026-04-25 16:50:18 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:50:18 [INF] CORS policy execution successful.
+2026-04-25 16:50:18 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 62.8519ms
+2026-04-25 16:50:18 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:50:18 [INF] CORS policy execution successful.
+2026-04-25 16:50:18 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:50:18 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:50:18 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 121.3033ms
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 230.1531ms
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 0.8311ms
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 1.1712ms
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 22.0197ms
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 28.3484ms
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 25.5562ms
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 27.5678ms
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:50:28 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 32.2663ms
+2026-04-25 16:50:28 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 7.3391 ms
+2026-04-25 16:50:28 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 25.846ms
+2026-04-25 16:50:28 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 65.988ms
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:50:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.7156ms
+2026-04-25 16:50:28 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 139.6218ms
+2026-04-25 16:50:34 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:50:35 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:50:35 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:50:35 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:50:35 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:50:35 [INF] Hosting environment: "Development"
+2026-04-25 16:50:35 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:50:37 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 389.8804ms
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 75.0008ms
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 9.0196ms
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 121.4684ms
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 130.6877ms
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 131.3832ms
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 98.7358ms
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 139.7227ms
+2026-04-25 16:50:38 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 101.5428ms
+2026-04-25 16:50:38 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.1308 ms
+2026-04-25 16:50:38 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 319.2197ms
+2026-04-25 16:50:38 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 16:50:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 16:50:38 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.8151ms
+2026-04-25 16:50:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 129.8026ms
+2026-04-25 16:51:11 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 16:51:11 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 16:51:11 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 16:51:11 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 16:51:11 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 16:51:11 [INF] Hosting environment: "Development"
+2026-04-25 16:51:11 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 16:51:17 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 50
+2026-04-25 16:51:17 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 106.8956ms
+2026-04-25 16:51:17 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 16:51:17 [INF] CORS policy execution successful.
+2026-04-25 16:51:17 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 49.9829ms
+2026-04-25 16:51:17 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 50
+2026-04-25 16:51:17 [INF] CORS policy execution successful.
+2026-04-25 16:51:17 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:51:17 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 16:51:18 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 16:51:18 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 1055.2822ms
+2026-04-25 16:51:18 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 16:51:18 [INF] HTTP "POST" "/Login/Login" responded 200 in 1117.5126 ms
+2026-04-25 16:51:18 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1191.2179ms
+2026-04-25 16:51:31 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:51:31 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 1.1298ms
+2026-04-25 16:51:31 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 16:51:31 [INF] CORS policy execution successful.
+2026-04-25 16:51:32 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 2.4837ms
+2026-04-25 16:51:32 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 16:51:32 [INF] CORS policy execution successful.
+2026-04-25 16:51:32 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 16:51:32 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 16:51:32 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 27.4569ms

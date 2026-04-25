@@ -1,0 +1,342 @@
+2026-04-25 17:05:28 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:05:28 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:05:28 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:05:28 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:05:28 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:05:28 [INF] Hosting environment: "Development"
+2026-04-25 17:05:28 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:05:28 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 292.0252ms
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 4.8147ms
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 3.4324ms
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 9.896ms
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 24.6404ms
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 13.1119ms
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 13.2234ms
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 22.378ms
+2026-04-25 17:05:29 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 52.9847ms
+2026-04-25 17:05:29 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.0650 ms
+2026-04-25 17:05:29 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 120.402ms
+2026-04-25 17:05:29 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 17:05:29 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.6458ms
+2026-04-25 17:05:29 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 153.5662ms
+2026-04-25 17:05:34 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 50
+2026-04-25 17:05:34 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 0.8082ms
+2026-04-25 17:05:34 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 17:05:34 [INF] CORS policy execution successful.
+2026-04-25 17:05:34 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 9.1882ms
+2026-04-25 17:05:34 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 50
+2026-04-25 17:05:34 [INF] CORS policy execution successful.
+2026-04-25 17:05:34 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:05:34 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 17:05:35 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 17:05:35 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 1063.6743ms
+2026-04-25 17:05:35 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:05:35 [INF] HTTP "POST" "/Login/Login" responded 200 in 1125.0682 ms
+2026-04-25 17:05:35 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1129.6982ms
+2026-04-25 17:07:02 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:07:02 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.6602ms
+2026-04-25 17:07:02 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 17:07:02 [INF] CORS policy execution successful.
+2026-04-25 17:07:02 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 1.0285ms
+2026-04-25 17:07:02 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:07:02 [INF] CORS policy execution successful.
+2026-04-25 17:07:02 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 17:07:02 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 17:07:02 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 28.8771ms
+2026-04-25 17:11:27 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:11:27 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:11:27 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:11:27 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:11:27 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:11:27 [INF] Hosting environment: "Development"
+2026-04-25 17:11:27 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:11:34 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 50
+2026-04-25 17:11:34 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 95.7903ms
+2026-04-25 17:11:34 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 17:11:34 [INF] CORS policy execution successful.
+2026-04-25 17:11:34 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 57.1057ms
+2026-04-25 17:11:34 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 50
+2026-04-25 17:11:34 [INF] CORS policy execution successful.
+2026-04-25 17:11:34 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:11:34 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 17:11:35 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 17:11:35 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 1034.0728ms
+2026-04-25 17:11:35 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:11:35 [INF] HTTP "POST" "/Login/Login" responded 200 in 1123.0173 ms
+2026-04-25 17:11:35 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1267.8739ms
+2026-04-25 17:12:12 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:12:12 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 1.2215ms
+2026-04-25 17:12:12 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 17:12:12 [INF] CORS policy execution successful.
+2026-04-25 17:12:12 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 6.1988ms
+2026-04-25 17:12:12 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:12:12 [INF] CORS policy execution successful.
+2026-04-25 17:12:12 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2026-04-25 17:12:12 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 17:12:12 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 24.6949ms
+2026-04-25 17:15:03 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:15:03 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:15:03 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:15:03 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:15:03 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:15:03 [INF] Hosting environment: "Development"
+2026-04-25 17:15:03 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:16:07 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 50
+2026-04-25 17:16:07 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 98.5968ms
+2026-04-25 17:16:08 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 17:16:08 [INF] CORS policy execution successful.
+2026-04-25 17:16:08 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 29.7802ms
+2026-04-25 17:16:08 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 50
+2026-04-25 17:16:08 [INF] CORS policy execution successful.
+2026-04-25 17:16:08 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:16:08 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 17:16:09 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 17:16:09 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 1080.4685ms
+2026-04-25 17:16:09 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:16:09 [INF] HTTP "POST" "/Login/Login" responded 200 in 1162.6883 ms
+2026-04-25 17:16:09 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 1288.8002ms
+2026-04-25 17:16:36 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:16:36 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 1.1623ms
+2026-04-25 17:16:36 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 17:16:36 [INF] CORS policy execution successful.
+2026-04-25 17:16:36 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 2.6134ms
+2026-04-25 17:16:36 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:16:36 [INF] CORS policy execution successful.
+2026-04-25 17:16:36 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+2026-04-25 17:16:36 [INF] AuthenticationScheme: "Bearer" was challenged.
+2026-04-25 17:16:36 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 401 0 null 33.5722ms
+2026-04-25 17:22:33 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:22:34 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:22:34 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:22:34 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:22:34 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:22:34 [INF] Hosting environment: "Development"
+2026-04-25 17:22:34 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:22:38 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 367.4162ms
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 67.501ms
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 78.7279ms
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 85.8282ms
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 3.7904ms
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 100.9059ms
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 83.2062ms
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 94.5871ms
+2026-04-25 17:22:39 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 85.6827ms
+2026-04-25 17:22:39 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 1.1521 ms
+2026-04-25 17:22:39 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 86.4136ms
+2026-04-25 17:22:39 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 17:22:39 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.5051ms
+2026-04-25 17:22:39 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 122.3229ms
+2026-04-25 17:22:47 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 50
+2026-04-25 17:22:47 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 1.3916ms
+2026-04-25 17:22:47 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 17:22:47 [INF] CORS policy execution successful.
+2026-04-25 17:22:47 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 9.3996ms
+2026-04-25 17:22:47 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 50
+2026-04-25 17:22:47 [INF] CORS policy execution successful.
+2026-04-25 17:22:47 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:22:47 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 17:22:48 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 17:22:48 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 800.8259ms
+2026-04-25 17:22:48 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:22:48 [INF] HTTP "POST" "/Login/Login" responded 200 in 886.1921 ms
+2026-04-25 17:22:48 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 891.6752ms
+2026-04-25 17:23:01 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:23:01 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 1.1353ms
+2026-04-25 17:23:01 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 17:23:01 [INF] CORS policy execution successful.
+2026-04-25 17:23:01 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.6004ms
+2026-04-25 17:23:01 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:23:01 [INF] CORS policy execution successful.
+2026-04-25 17:23:01 [INF] Executing endpoint '"DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)"'
+2026-04-25 17:23:01 [INF] Route matched with "{action = \"CreateDoctor\", controller = \"Doctor\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDoctor(DocEase.Application.Dtos.Request.RegisterDoctorRequest)" on controller "DocEase.Api.Controllers.DoctorController" ("DocEase.Api").
+2026-04-25 17:24:01 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:24:02 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:24:02 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:24:02 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:24:02 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:24:02 [INF] Hosting environment: "Development"
+2026-04-25 17:24:02 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:24:04 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:24:05 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 99.2615ms
+2026-04-25 17:24:05 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 17:24:05 [INF] CORS policy execution successful.
+2026-04-25 17:24:05 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 58.2534ms
+2026-04-25 17:24:05 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:24:05 [INF] CORS policy execution successful.
+2026-04-25 17:24:05 [INF] Executing endpoint '"DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)"'
+2026-04-25 17:24:05 [INF] Route matched with "{action = \"CreateDoctor\", controller = \"Doctor\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDoctor(DocEase.Application.Dtos.Request.RegisterDoctorRequest)" on controller "DocEase.Api.Controllers.DoctorController" ("DocEase.Api").
+2026-04-25 17:26:34 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:26:35 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:26:35 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:26:35 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:26:35 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:26:35 [INF] Hosting environment: "Development"
+2026-04-25 17:26:35 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:26:47 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:26:47 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 61.1509ms
+2026-04-25 17:26:47 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 17:26:47 [INF] CORS policy execution successful.
+2026-04-25 17:26:47 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 41.1248ms
+2026-04-25 17:26:47 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:26:47 [INF] CORS policy execution successful.
+2026-04-25 17:26:47 [INF] Executing endpoint '"DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)"'
+2026-04-25 17:26:47 [INF] Route matched with "{action = \"CreateDoctor\", controller = \"Doctor\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDoctor(DocEase.Application.Dtos.Request.RegisterDoctorRequest)" on controller "DocEase.Api.Controllers.DoctorController" ("DocEase.Api").
+2026-04-25 17:27:23 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-25 17:27:23 [INF] Executed action "DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)" in 35742.8484ms
+2026-04-25 17:27:23 [INF] Executed endpoint '"DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)"'
+2026-04-25 17:27:23 [INF] HTTP "POST" "/Doctor/create" responded 200 in 35798.4564 ms
+2026-04-25 17:27:23 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 200 null "application/json; charset=utf-8" 35892.5863ms
+2026-04-25 17:28:11 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:28:11 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:28:11 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:28:11 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:28:11 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:28:11 [INF] Hosting environment: "Development"
+2026-04-25 17:28:11 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:28:16 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 50
+2026-04-25 17:28:16 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 106.9706ms
+2026-04-25 17:28:16 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 17:28:16 [INF] CORS policy execution successful.
+2026-04-25 17:28:16 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 56.3042ms
+2026-04-25 17:28:16 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 50
+2026-04-25 17:28:16 [INF] CORS policy execution successful.
+2026-04-25 17:28:16 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:28:16 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 17:28:30 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 17:28:30 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 13564.4036ms
+2026-04-25 17:28:30 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:28:30 [INF] HTTP "POST" "/Login/Login" responded 200 in 13614.8466 ms
+2026-04-25 17:28:30 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 13713.7883ms
+2026-04-25 17:28:50 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:28:50 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.582ms
+2026-04-25 17:28:50 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 17:28:50 [INF] CORS policy execution successful.
+2026-04-25 17:28:50 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 1.8477ms
+2026-04-25 17:28:50 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:28:50 [INF] CORS policy execution successful.
+2026-04-25 17:28:50 [INF] Executing endpoint '"DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)"'
+2026-04-25 17:28:50 [INF] Route matched with "{action = \"CreateDoctor\", controller = \"Doctor\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDoctor(DocEase.Application.Dtos.Request.RegisterDoctorRequest)" on controller "DocEase.Api.Controllers.DoctorController" ("DocEase.Api").
+2026-04-25 17:39:05 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:39:06 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:39:06 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:39:06 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:39:06 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:39:06 [INF] Hosting environment: "Development"
+2026-04-25 17:39:06 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:39:14 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - null null
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.html""" - 304 null null 369.8307ms
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - null null
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - null null
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - null null
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - null null
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_framework/aspnetcore-browser-refresh.js""" - 200 14927 "application/javascript; charset=utf-8" 49.51ms
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - null null
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.js""" - 304 null null 3.6348ms
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger-ui/custom.css""" - 307 0 null 80.0231ms
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - null null
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/index.css""" - 304 null null 98.5041ms
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-standalone-preset.js""" - 304 null null 86.6439ms
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui.css""" - 304 null null 99.9451ms
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/swagger-ui-bundle.js""" - 304 null null 112.1877ms
+2026-04-25 17:39:15 [INF] Request starting "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - null null
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 161.4727ms
+2026-04-25 17:39:15 [INF] HTTP "GET" "/swagger-ui/custom.css" responded 404 in 0.6940 ms
+2026-04-25 17:39:15 [INF] Request finished "HTTP/2" "GET" "https"://"localhost:7239""""/swagger-ui/custom.css""" - 404 0 null 127.051ms
+2026-04-25 17:39:15 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7239""""/swagger-ui/custom.css", Response status code: 404
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - null null
+2026-04-25 17:39:15 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - null null
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/favicon-32x32.png""" - 304 null null 0.6772ms
+2026-04-25 17:39:15 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5196""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 108.9716ms
+2026-04-25 17:39:27 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - "application/json" 50
+2026-04-25 17:39:27 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Login/Login""" - 307 0 null 0.7272ms
+2026-04-25 17:39:27 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - null null
+2026-04-25 17:39:27 [INF] CORS policy execution successful.
+2026-04-25 17:39:27 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Login/Login""" - 204 null null 9.0231ms
+2026-04-25 17:39:27 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - "application/json" 50
+2026-04-25 17:39:27 [INF] CORS policy execution successful.
+2026-04-25 17:39:27 [INF] Executing endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:39:27 [INF] Route matched with "{action = \"Login\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DocEase.Application.Dtos.Request.AuthRequest)" on controller "DocEase.Api.Controllers.LoginController" ("DocEase.Api").
+2026-04-25 17:39:34 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[DocEase.Application.Dtos.Response.AuthResponse, DocEase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-04-25 17:39:34 [INF] Executed action "DocEase.Api.Controllers.LoginController.Login (DocEase.Api)" in 7713.2764ms
+2026-04-25 17:39:34 [INF] Executed endpoint '"DocEase.Api.Controllers.LoginController.Login (DocEase.Api)"'
+2026-04-25 17:39:34 [INF] HTTP "POST" "/Login/Login" responded 200 in 7769.0496 ms
+2026-04-25 17:39:34 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Login/Login""" - 200 null "application/json; charset=utf-8" 7772.5603ms
+2026-04-25 17:39:59 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:39:59 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.4855ms
+2026-04-25 17:39:59 [INF] Request starting "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - null null
+2026-04-25 17:39:59 [INF] CORS policy execution successful.
+2026-04-25 17:39:59 [INF] Request finished "HTTP/2" "OPTIONS" "https"://"localhost:7239""""/Doctor/create""" - 204 null null 0.7706ms
+2026-04-25 17:39:59 [INF] Request starting "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 159
+2026-04-25 17:39:59 [INF] CORS policy execution successful.
+2026-04-25 17:39:59 [INF] Executing endpoint '"DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)"'
+2026-04-25 17:39:59 [INF] Route matched with "{action = \"CreateDoctor\", controller = \"Doctor\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDoctor(DocEase.Application.Dtos.Request.RegisterDoctorRequest)" on controller "DocEase.Api.Controllers.DoctorController" ("DocEase.Api").
+2026-04-25 17:40:05 [INF] Executing "OkObjectResult", writing value of type '"DocEase.Api.Common.ApiResponse`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2026-04-25 17:40:05 [INF] Executed action "DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)" in 5507.5257ms
+2026-04-25 17:40:05 [INF] Executed endpoint '"DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)"'
+2026-04-25 17:40:05 [INF] HTTP "POST" "/Doctor/create" responded 200 in 5521.8189 ms
+2026-04-25 17:40:05 [INF] Request finished "HTTP/2" "POST" "https"://"localhost:7239""""/Doctor/create""" - 200 null "application/json; charset=utf-8" 5529.2742ms
+2026-04-25 17:43:30 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 166
+2026-04-25 17:43:30 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 0.5911ms
+2026-04-25 17:43:30 [INF] Request starting "HTTP/1.1" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 166
+2026-04-25 17:43:30 [INF] Executing endpoint '"DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api)"'
+2026-04-25 17:43:30 [INF] Route matched with "{action = \"CreateDoctor\", controller = \"Doctor\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] CreateDoctor(DocEase.Application.Dtos.Request.RegisterDoctorRequest)" on controller "DocEase.Api.Controllers.DoctorController" ("DocEase.Api").
+2026-04-25 17:44:29 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:44:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:44:30 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:44:30 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:44:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:44:30 [INF] Hosting environment: "Development"
+2026-04-25 17:44:30 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:44:34 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 166
+2026-04-25 17:44:34 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 91.1038ms
+2026-04-25 17:44:34 [INF] Request starting "HTTP/1.1" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 166
+2026-04-25 17:44:34 [ERR] HTTP "POST" "/Doctor/create" responded 500 in 2.4184 ms
+System.InvalidOperationException: Endpoint DocEase.Api.Controllers.DoctorController.CreateDoctor (DocEase.Api) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-04-25 17:44:34 [INF] Request finished "HTTP/1.1" "POST" "https"://"localhost:7239""""/Doctor/create""" - 500 null "application/json; charset=utf-8" 354.3681ms
+2026-04-25 17:45:08 [INF] User profile is available. Using '"C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-25 17:45:09 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2026-04-25 17:45:09 [INF] Now listening on: "https://localhost:7239"
+2026-04-25 17:45:09 [INF] Now listening on: "http://localhost:5196"
+2026-04-25 17:45:10 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-25 17:45:10 [INF] Hosting environment: "Development"
+2026-04-25 17:45:10 [INF] Content root path: "D:\Projects\DocEase\DocEase\DocEase.Api"
+2026-04-25 17:45:26 [INF] Request starting "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - "application/json" 166
+2026-04-25 17:45:26 [INF] Request finished "HTTP/1.1" "POST" "http"://"localhost:5196""""/Doctor/create""" - 307 0 null 96.5537ms
+2026-04-25 17:45:26 [INF] Request starting "HTTP/1.1" "POST" "https"://"localhost:7239""""/Doctor/create""" - "application/json" 166
+2026-04-25 17:45:27 [INF] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Doctor)"
+2026-04-25 17:45:27 [INF] AuthenticationScheme: "Bearer" was forbidden.
+2026-04-25 17:45:27 [INF] Request finished "HTTP/1.1" "POST" "https"://"localhost:7239""""/Doctor/create""" - 403 0 null 284.6741ms
