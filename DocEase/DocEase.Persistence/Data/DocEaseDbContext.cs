@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using DocEase.Persistence.Models;
+﻿using DocEase.Persistence.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DocEase.Persistence.Data;
@@ -46,9 +44,12 @@ public partial class DocEaseDbContext : DbContext
 
     public virtual DbSet<VideoConsultation> VideoConsultations { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=NIKOLASHPC;Initial Catalog=DocEase;Integrated Security=True;Trust Server Certificate=True");
+    public virtual DbSet<RefreshToken> RefreshTokens { get; set; }
+
+
+    //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+    //        => optionsBuilder.UseSqlServer("Data Source=NIKOLASHPC;Initial Catalog=DocEase;Integrated Security=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -293,6 +294,19 @@ public partial class DocEaseDbContext : DbContext
                 .HasForeignKey(d => d.AppointmentId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__VideoCons__Appoi__60A75C0F");
+        });
+
+        modelBuilder.Entity<RefreshToken>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__RefreshT__3214EC072E29A71B");
+
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.ExpiresAt).HasColumnType("datetime");
+            entity.Property(e => e.ReplacedByToken).HasMaxLength(500);
+            entity.Property(e => e.RevokedAt).HasColumnType("datetime");
+            entity.Property(e => e.TokenHash).HasMaxLength(500);
         });
 
         OnModelCreatingPartial(modelBuilder);

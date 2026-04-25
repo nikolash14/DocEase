@@ -1,11 +1,13 @@
-﻿using DocEase.Application.Config;
+﻿using DocEase.Application;
+using DocEase.Application.Config;
 using DocEase.Application.Dtos.Dto;
 using DocEase.Application.Dtos.Request;
 using DocEase.Application.Dtos.Response;
-using DocEase.Application.Enums;
 using DocEase.Application.ServiceReference;
 using DocEase.Infrastructure.IRepository;
+using DocEase.Infrastructure.Utility;
 using DocEase.Persistence.Models;
+using Mapster;
 using Microsoft.Extensions.Options;
 namespace DocEase.Infrastructure.Service
 {
@@ -13,103 +15,72 @@ namespace DocEase.Infrastructure.Service
     {
         private readonly ITokenRepository _tokens;
         private readonly JwtSetting _settings;
-
-        // Simulated stores (swap for DbContext)
-        private static readonly List<User> _users = [];
-        private static readonly List<RefreshToken> _refreshTokens = [];
-
+        private readonly IUserRepository _userRepository;
         public AuthService(
             ITokenRepository tokens,
-            IOptions<JwtSetting> opt)
+            IOptions<JwtSetting> opt, IUserRepository userRepository)
         {
             _tokens = tokens;
             _settings = opt.Value;
-
-            // Seed a demo admin account on first load
-            if (_users.Count == 0)
-                _users.Add(new User
-                {
-                    UserName = "string",
-                    Email = "admin@example.com",
-                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("string"),
-                    Role = nameof(UserRoles.Admin),
-                });
+            _userRepository = userRepository;
         }
-        public Task<(bool, string?, AuthResponse?)> RegisterAsync(RegisterUserRequest req)
+        public async Task<Response<AuthResponse>> LoginAsync(AuthRequest req)
         {
-            if (_users.Any(u => u.Email.Equals(req.Email, StringComparison.OrdinalIgnoreCase)))
-                return Task.FromResult<(bool, string?, AuthResponse?)>((false, "Email already registered.", null));
-
-            var user = new User
-            {
-                UserName = req.UserName,
-                Email = req.Email,
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(req.Password),
-                Role = nameof(UserRoles.Anonymous),
-            };
-
-            _users.Add(user);
-            return Task.FromResult<(bool, string?, AuthResponse?)>((true, null, BuildResponse(user)));
-        }
-
-        // ── Login ─────────────────────────────────────────────────────────────────
-
-        public Task<(bool, string?, AuthResponse?)> LoginAsync(AuthRequest req)
-        {
-            var user = _users.FirstOrDefault(u =>
-                u.UserName.Equals(req.Username, StringComparison.OrdinalIgnoreCase));
-
+            var user = await _userRepository.GetUserAsync(req.Username);
             if (user is null || !BCrypt.Net.BCrypt.Verify(req.Password, user.PasswordHash))
-                return Task.FromResult<(bool, string?, AuthResponse?)>((false, "Invalid credentials.", null));
-
-            return Task.FromResult<(bool, string?, AuthResponse?)>((true, null, BuildResponse(user)));
-        }
-        public Task<(bool, string?, AuthResponse?)> RefreshAsync(string refreshToken)
-        {
-            var stored = _refreshTokens.FirstOrDefault(r =>
-                r.Token == refreshToken && !r.IsRevoked && r.ExpiresAt > DateTime.UtcNow);
-
-            if (stored is null)
-                return Task.FromResult<(bool, string?, AuthResponse?)>((false, "Invalid or expired refresh token.", null));
-
-            // Rotate: revoke old, issue new
-            stored.IsRevoked = true;
-
-            var user = _users.FirstOrDefault(u => u.UserId == stored.UserId);
-            if (user is null)
-                return Task.FromResult<(bool, string?, AuthResponse?)>((false, "User not found.", null));
-
-            return Task.FromResult<(bool, string?, AuthResponse?)>((true, null, BuildResponse(user)));
+                return Response<AuthResponse>.Error(string.Format(Message.InvalidUserNameOrPassword, req.Username));
+            return Response<AuthResponse>.Success(await CreateAccessToken(user));
         }
 
-        // ── Revoke ────────────────────────────────────────────────────────────────
-
-        public Task<bool> RevokeAsync(string refreshToken)
-        {
-            var stored = _refreshTokens.FirstOrDefault(r => r.Token == refreshToken);
-            if (stored is null) return Task.FromResult(false);
-            stored.IsRevoked = true;
-            return Task.FromResult(true);
-        }
-
-        // ── Helpers ───────────────────────────────────────────────────────────────
-
-        private AuthResponse BuildResponse(User user)
+        private async Task<AuthResponse> CreateAccessToken(User user, bool isRefresh = false)
         {
             var accessToken = _tokens.GenerateAccessToken(user);
             var refreshToken = _tokens.GenerateRefreshToken();
             var expiresAt = DateTime.UtcNow.AddMinutes(_settings.AccessTokenMinutes);
-
-            _refreshTokens.Add(new RefreshToken
+            if (isRefresh)
             {
-                Token = refreshToken,
-                UserId = user.UserId,
-                ExpiresAt = DateTime.UtcNow.AddDays(_settings.RefreshTokenDays),
-            });
-
-            return new AuthResponse(
+                await _userRepository.UpdateRefreshToken(new RefreshToken
+                {
+                    TokenHash = refreshToken,
+                    UserId = user.UserId,
+                    ExpiresAt = DateTime.UtcNow.AddDays(_settings.RefreshTokenDays),
+                });
+            }
+            else
+            {
+                await _userRepository.RegisterRefreshToken(new RefreshToken
+                {
+                    TokenHash = refreshToken,
+                    UserId = user.UserId,
+                    ExpiresAt = DateTime.UtcNow.AddDays(_settings.RefreshTokenDays),
+                });
+            }
+            var response = new AuthResponse(
                 accessToken, refreshToken, expiresAt,
-                new UserDto(user.UserId, user.UserName, user.Email, user.Role));
+                user.Adapt<UserDto>());
+            return response;
+        }
+
+        public async Task<Response<AuthResponse>> RefreshAsync(string refreshToken)
+        {
+            var stored = await _userRepository.GetTokenRefreshAsync(refreshToken);
+            if (stored is null)
+                return Response<AuthResponse>.Error(Message.InvalidUserNameOrPassword);
+
+            // Rotate: revoke old, issue new
+            await RevokeAsync(refreshToken);
+
+            var user = await _userRepository.GetUserAsync(stored.UserId);
+            if (user is null)
+                return Response<AuthResponse>.Error(Message.UserNotAvailable);
+            return Response<AuthResponse>.Success(await CreateAccessToken(user, true));
+        }
+        public async Task<Response<bool>> RevokeAsync(string refreshToken)
+        {
+            var stored = await _userRepository.RevokeTokenAsync(refreshToken);
+            if (stored > 0)
+                return Response<bool>.Success(true);
+            return Response<bool>.Success(false);
         }
     }
 }

@@ -26,13 +26,13 @@ namespace DocEase.Api.Middleware
                     {
                         ValidateIssuer = true,
                         ValidateAudience = true,
-                        ValidateLifetime = false,
+                        ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
                         ValidIssuer = authSetting.Issuer,
                         ValidAudience = authSetting.Audience,
                         IssuerSigningKey = new SymmetricSecurityKey(
                             Encoding.UTF8.GetBytes(authSetting.SecretKey)),
-                        //ClockSkew = TimeSpan.Zero,
+                        ClockSkew = TimeSpan.Zero,
                         RoleClaimType = ClaimTypes.Role,
                         NameClaimType = ClaimTypes.Name
                     };

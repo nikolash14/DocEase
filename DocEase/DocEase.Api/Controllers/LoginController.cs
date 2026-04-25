@@ -1,7 +1,6 @@
-﻿using DocEase.Api.Common;
-using DocEase.Application.Dtos.Request;
-using DocEase.Application.Dtos.Response;
+﻿using DocEase.Application.Dtos.Request;
 using DocEase.Application.ServiceReference;
+using DocEase.Persistence.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DocEase.Api.Controllers
@@ -21,10 +20,15 @@ namespace DocEase.Api.Controllers
         public async Task<IActionResult> Login([FromBody] AuthRequest user)
         {
             var resp = await _authService.LoginAsync(user);
-            if (resp.Success && resp.Response is not null)
-                return Ok(ApiResponse<AuthResponse>.Success(resp.Response));
-            else
-                return BadRequest(ApiResponse<string>.Fail(resp.Error));
+            return resp.Status ? Ok(resp) : BadRequest(resp);
+        }
+
+        [HttpPost]
+        [Route("refreshtoken")]
+        public async Task<IActionResult> RefreshToken([FromHeader] string token)
+        {
+            var resp = await _authService.RefreshAsync(token);
+            return resp.Status ? Ok(resp) : BadRequest(resp);
         }
     }
 }

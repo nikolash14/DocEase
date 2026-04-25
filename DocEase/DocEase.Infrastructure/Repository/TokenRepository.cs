@@ -52,7 +52,7 @@ namespace DocEase.Infrastructure.Repository
                 ValidateIssuer = true,
                 ValidateAudience = true,
                 ValidateIssuerSigningKey = true,
-                ValidateLifetime = false,
+                ValidateLifetime = true,
                 ValidIssuer = _settings.Issuer,
                 ValidAudience = _settings.Audience,
                 IssuerSigningKey = key

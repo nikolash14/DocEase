@@ -1,6 +1,6 @@
-﻿namespace DocEase.Application.Dtos.Dto
+﻿namespace DocEase.Application.Dtos.Response
 {
-    public class RefreshToken
+    public class RefreshTokenResponse
     {
         public string Token { get; set; } = string.Empty;
         public Int64 UserId { get; set; }

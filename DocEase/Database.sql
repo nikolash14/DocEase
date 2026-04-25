@@ -159,7 +159,16 @@ CREATE TABLE VideoConsultations (
     EndTime DATETIME NOT NULL,
     Status NVARCHAR(50) DEFAULT 'Scheduled' -- Scheduled, Completed, Cancelled
 );
-
+CREATE TABLE RefreshTokens (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    UserId INT NOT NULL,
+    TokenHash NVARCHAR(500) NOT NULL,
+    ExpiresAt DATETIME NOT NULL,
+    CreatedAt DATETIME DEFAULT GETDATE(),
+    RevokedAt DATETIME NULL,
+    ReplacedByToken NVARCHAR(500) NULL,
+    CONSTRAINT FK_User_RefreshTokens FOREIGN KEY (UserId) REFERENCES Users(UserId)
+);
 
 
 

@@ -1,4 +1,4 @@
-﻿using DocEase.Api.Common;
+﻿using DocEase.Application;
 using DocEase.Application.Dtos.Request;
 using DocEase.Application.Enums;
 using Microsoft.AspNetCore.Authorization;
@@ -17,12 +17,9 @@ namespace DocEase.Api.Controllers
         [HttpPost]
         [Route("create")]
         public async Task<ActionResult> CreateDoctor([FromBody] RegisterDoctorRequest registerDoctor)
-        {
-            var claimsInfo = User.Claims
-        .Select(c => new { c.Type, c.Value })
-        .ToList();
 
-            return Ok(ApiResponse<string>.Success("Doctor Created!"));
+        {
+            return Ok(Response<string>.Success("Test"));
         }
     }
 }

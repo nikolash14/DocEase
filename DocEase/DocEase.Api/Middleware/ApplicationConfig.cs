@@ -1,4 +1,6 @@
 ﻿using DocEase.Application.Config;
+using DocEase.Persistence.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace DocEase.Api.Middleware
 {
@@ -16,6 +18,9 @@ namespace DocEase.Api.Middleware
             services.Configure<SqlSetting>(configuration.GetSection("ConnectionStrings"));
             services.Configure<SerilogSetting>(configuration.GetSection("SerilogLoggingConfig"));
             services.Configure<JwtSetting>(configuration.GetSection("JwtSettings"));
+            services.AddDbContext<DocEaseDbContext>(options =>
+                                         options.UseSqlServer(configuration.GetConnectionString("SqlServerPrimary")),
+                                         ServiceLifetime.Transient);
         }
     }
 }

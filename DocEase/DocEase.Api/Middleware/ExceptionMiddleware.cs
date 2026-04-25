@@ -1,4 +1,4 @@
-﻿using DocEase.Api.Common;
+﻿using DocEase.Application;
 using Serilog.Context;
 
 namespace DocEase.Api.Middleware
@@ -30,9 +30,8 @@ namespace DocEase.Api.Middleware
         {
             context.Response.StatusCode = 500;
             context.Response.ContentType = "application/json";
-            var response = ApiResponse<object>.Fail(
-                message: $"Internal Server Error: {ex.Message}",
-                statusCode: 500
+            var response = Response<object>.Error(
+                message: $"Internal Server Error: {ex.Message}"
             );
             context.Response.WriteAsJsonAsync(response);
         }
