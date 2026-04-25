@@ -1,4 +1,5 @@
 using DocEase.Api.Middleware;
+using Scalar.AspNetCore;
 using Serilog;
 using Serilog.Events;
 
@@ -7,9 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.LoadStaticConfigFiles();
 builder.Services.LoadConfig(builder.Configuration);
 builder.Services.AddControllers();
-builder.Services.AddOpenApi();
+builder.Services.AddOpenApiConfig();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwagger();
 builder.Services.AddDependency();
 builder.Services.AddCors(options =>
 {
@@ -27,13 +27,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI(options =>
-    {
-        options.DocumentTitle = "DocEase API Explorer";
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "DocEase API v1");
-        options.InjectStylesheet("/swagger-ui/custom.css"); // optional branding
-    });
+    app.MapScalarApiReference();
 }
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseHttpsRedirection();
