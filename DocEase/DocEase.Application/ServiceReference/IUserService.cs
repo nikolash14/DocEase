@@ -6,5 +6,6 @@ namespace DocEase.Application.ServiceReference
     public interface IUserService
     {
         Task<Response<RegisterUserResponse>> RegisterAsync(RegisterUserRequest req);
+        Task<Response<Boolean>> DeActiveUserAsync(string userName);
     }
 }

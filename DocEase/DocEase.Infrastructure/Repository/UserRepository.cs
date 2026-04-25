@@ -18,14 +18,14 @@ namespace DocEase.Infrastructure.Repository
             return await _docEaseDbContext
                     .Users
                     .FirstOrDefaultAsync(m => m.UserName
-                                .Equals(username));
+                                .Equals(username) && m.IsActive == true);
         }
 
         public async Task<User?> GetUserAsync(Int64 id)
         {
             return await _docEaseDbContext
                     .Users
-                    .FirstOrDefaultAsync(m => m.UserId == id);
+                    .FirstOrDefaultAsync(m => m.UserId == id && m.IsActive == true);
         }
 
         public async Task RegisterRefreshToken(RefreshToken refreshToken)
@@ -36,7 +36,9 @@ namespace DocEase.Infrastructure.Repository
 
         public async Task UpdateRefreshToken(RefreshToken refreshToken)
         {
-            var result = await _docEaseDbContext.RefreshTokens.FirstAsync(m => m.UserId == refreshToken.UserId);
+            var result = await _docEaseDbContext
+                                .RefreshTokens
+                                .FirstAsync(m => m.UserId == refreshToken.UserId);
             result.TokenHash = refreshToken.TokenHash;
             result.CreatedAt = refreshToken.CreatedAt;
             result.ExpiresAt = refreshToken.ExpiresAt;
@@ -68,6 +70,15 @@ namespace DocEase.Infrastructure.Repository
             result.RevokedAt = DateTime.Now;
             _docEaseDbContext.RefreshTokens.Update(result);
             return await _docEaseDbContext.SaveChangesAsync();
+        }
+
+        public async Task<long> DeActiveUser(string userName)
+        {
+            var result = await _docEaseDbContext.Users.FirstAsync(m => m.UserName.Equals(userName));
+            result.IsActive = false;
+            _docEaseDbContext.Users.Update(result);
+            var dbResult = await _docEaseDbContext.SaveChangesAsync();
+            return dbResult;
         }
     }
 }

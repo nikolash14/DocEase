@@ -5,6 +5,7 @@ namespace DocEase.Infrastructure.IRepository
     public interface IUserRepository
     {
         Task<User?> ResisterUser(User user);
+        Task<Int64> DeActiveUser(string userName);
         Task<User?> GetUserAsync(string username);
         Task<User?> GetUserAsync(Int64 id);
         Task RegisterRefreshToken(RefreshToken refreshToken);

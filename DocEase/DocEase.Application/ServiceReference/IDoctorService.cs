@@ -5,6 +5,9 @@ namespace DocEase.Application.ServiceReference
 {
     public interface IDoctorService
     {
-        Task<(bool Success, string? Error, RegisterDoctorResponse? Response)> RegisterAsync(RegisterDoctorRequest req);
+        Task<Response<RegisterDoctorResponse>> RegisterAsync(RegisterDoctorRequest req);
+        Task<Response<Boolean>> UpdateRoleAsync(string userName);
+        Task<Response<RegisterDoctorResponse>> GetDeatilsAsync(string userName);
+
     }
 }

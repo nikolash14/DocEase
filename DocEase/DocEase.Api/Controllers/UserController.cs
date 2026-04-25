@@ -8,7 +8,7 @@ namespace DocEase.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize(Roles = $"{nameof(UserRoles.Admin)}")]
+    [Authorize]
     public class UserController : ControllerBase
     {
         private IUserService _userService;
@@ -25,5 +25,14 @@ namespace DocEase.Api.Controllers
             var result = await _userService.RegisterAsync(request);
             return result.Status ? Created("201", result) : BadRequest(result);
         }
+
+        [Route("delete")]
+        [HttpPost]
+        public async Task<IActionResult> DeActiveUser([FromHeader] string username)
+        {
+            var result = await _userService.DeActiveUserAsync(username);
+            return result.Status ? NoContent() : BadRequest(result);
+        }
+
     }
 }

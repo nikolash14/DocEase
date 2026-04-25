@@ -16,6 +16,15 @@ namespace DocEase.Infrastructure.Service
         {
             _userRepository = userRepository;
         }
+
+        public async Task<Response<bool>> DeActiveUserAsync(string userName)
+        {
+            var result = await _userRepository.DeActiveUser(userName);
+            if (result > 0)
+                return Response<Boolean>.Success(true);
+            return Response<Boolean>.Success(false);
+        }
+
         public async Task<Response<RegisterUserResponse>>
             RegisterAsync(RegisterUserRequest req)
         {
